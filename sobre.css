@@ -1,0 +1,62 @@
+main {
+    margin-top: 5rem;
+}
+
+.main-title {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.main-title span {
+    font-family: "yeseva one";
+}
+
+.sobre-img {
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-position: center;
+}
+
+.sobre-title {
+    font-size: 2rem;
+    font-weight: 700;
+
+}
+
+.sobre-title span {
+    font-family: "yeseva one";
+}
+
+.sobre-description {
+    line-height: 1.5;
+
+}
+
+.grid .row {
+    position: relative;
+}
+
+.grid .row:nth-child(1)::after,
+.grid .row:nth-child(2)::after {
+    content: '';
+    position: absolute;
+    background-color: #ccc;
+    height: 1px;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+}
+
+@media (min-width: 992px) {
+    .sobre-img {
+        height: 500px;
+    }
+
+    .main-title {
+        padding: 3rem 0 1rem;
+    }
+
+}

@@ -1,0 +1,51 @@
+main {
+    margin-top: 5rem;
+}
+
+
+
+.main-title {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+
+.main-title span {
+    font-family: "yeseva one";
+}
+
+.card-title {
+    font-size: 3rem;
+    font-weight: 700;
+
+}
+
+.card-title span {
+    font-family: "yeseva one";
+}
+
+.card-img-top {
+    height: 300px;
+
+}
+
+.image-fluid {
+    height: 200px;
+    width: 100%;
+    display: block;
+    object-position: center;
+}
+
+@media (min-width: 992px) {
+    .card-img-top {
+        height: 500px;
+    }
+
+    .main-title {
+        padding: 3rem 0 2rem;
+    }
+
+}

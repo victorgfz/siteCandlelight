@@ -1,0 +1,179 @@
+#landing {
+    margin-top: 3rem;
+}
+
+.carousel-item img {
+    height: 600px;
+    object-position: center;
+}
+
+.carousel-content {
+    max-width: 992px;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.carousel-content h2 {
+    color: white;
+    max-width: 20rem;
+}
+
+.carousel-btn {
+    margin-top: .5rem;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 300;
+    font-size: 1rem;
+    color: white;
+    text-decoration: none;
+
+    border: 1px solid white;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    transition: .3s;
+}
+
+.carousel-btn:hover {
+    background-color: white;
+    color: #222;
+}
+
+.home-title {
+    font-weight: 500;
+    font-size: 2rem;
+    text-align: center;
+
+}
+
+.home-title span {
+    font-family: 'Yeseva One', 'serif';
+}
+
+
+#opinions {
+    margin-top: 2rem;
+}
+
+.card-header img {
+    height: 20px;
+}
+
+.card-header {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: .5rem;
+}
+
+
+#phrase {
+    margin-top: 2rem;
+}
+
+.phrase-items {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.phrase-items .blockquote {
+    position: absolute;
+    color: white;
+
+}
+
+.phrase-items .blockquote h2 {
+    font-weight: 400;
+    font-style: italic;
+    font-size: 2.25rem;
+    text-align: center;
+    max-width: 25rem;
+    margin-bottom: 1rem;
+}
+
+.phrase-items .blockquote h2 span {
+    font-family: "Yeseva One", 'serif';
+}
+
+
+.phrase-items .blockquote-footer {
+    font-size: 1rem;
+    color: #aaa;
+    text-align: center;
+}
+
+.phrase-items img {
+    height: 300px;
+    width: 100%;
+    display: block;
+    object-position: center;
+}
+
+#faq {
+    margin-top: 2rem;
+}
+
+
+@media (min-width: 992px) {
+
+    #landing {
+        margin-top: 5rem;
+    }
+
+    .carousel-item img {
+        height: 800px;
+    }
+
+    .carousel-content {
+        align-items: start;
+    }
+
+    .carousel-content h2 {
+        max-width: 25rem;
+
+    }
+
+    .home-title {
+
+        font-size: 3rem;
+        text-align: left;
+    }
+
+
+    .carousel-btn {
+        margin-top: 1rem;
+        font-size: 1rem;
+    }
+
+    #opinions {
+        margin-top: 5rem;
+    }
+
+    #phrase {
+        margin-top: 5rem;
+    }
+
+    .phrase-items img {
+        height: 800px;
+    }
+
+    .phrase-items .blockquote h2 {
+        font-size: 6rem;
+        max-width: 70rem;
+    }
+
+    .phrase-items .blockquote-footer {
+        font-size: 2rem;
+    }
+
+    #faq {
+        margin-top: 5rem;
+    }
+
+}

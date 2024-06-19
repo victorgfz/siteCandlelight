@@ -1,0 +1,47 @@
+body {
+    font-family: 'Poppins';
+}
+
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+.nav-link {
+    text-align: right;
+    padding: 1rem;
+    position: relative;
+}
+
+.nav-link.active {
+    font-weight: 400;
+}
+
+#footer {
+    margin-top: 2rem;
+}
+
+.footer-content {
+    color: white;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: center;
+    padding: 3rem 0;
+    margin-bottom: 0;
+
+}
+
+.footer-content span {
+    font-family: "Yeseva One";
+}
+
+@media (min-width: 992px) {
+    .nav-link {
+        padding: 1.5rem;
+
+    }
+
+    #footer {
+        margin-top: 5rem;
+    }
+}

@@ -1,0 +1,44 @@
+main {
+    margin-top: 5rem;
+}
+
+
+.main-title {
+    padding: 1rem 0;
+    text-align: center;
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+
+.main-title span {
+    font-family: "yeseva one";
+}
+
+.contato-btn {
+    margin-top: .5rem;
+    font-family: 'poppins', 'sans-serif';
+    font-weight: 300;
+    font-size: 1rem;
+    color: #222;
+    text-decoration: none;
+
+    border: 1px solid #222;
+    padding: .5rem 1.5rem;
+    border-radius: 1.5rem;
+    transition: .3s;
+}
+
+.contato-btn:hover {
+    background-color: #222;
+    color: white;
+}
+
+
+@media (min-width: 992px) {
+
+    .main-title {
+        padding: 3rem 0 2rem;
+    }
+
+}
